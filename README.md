@@ -1,37 +1,39 @@
 ## SnookerScore
 
-### Scorekeeping application for snooker fans
+### Aplikace pro počítání skóre pro fanoušky snookeru
 
-This is a web-based open source snooker scorekeeping (marking) application for real-time score display at the table for the players and spectators.
+Jedná se o webovou open source aplikaci pro počítání (značení) skóre ve snookeru pro zobrazení skóre v reálném čase u stolu pro hráče a diváky.
 
-All you need to mark and display the score are two internet connected devices (TV, computer, tablet or mobile phone).
+Vše, co potřebujete pro označení a zobrazení skóre, jsou dvě zařízení připojené k internetu (TV, počítač, tablet nebo mobilní telefon).
 
-Go to the free to use **[SnookerScore web site](http://snookerscore.club)** (or clone the depository and host the application on your own server if preferred), sign-up, create a match by entering it's place and title, the names of the players and the number of frames to play - and you are good to go.
+Přejděte na zdarma použitelný **[web SnookerScore](http://snookerscore.club)** (nebo si klonujte repozitář a hostujte aplikaci na svém vlastním serveru, pokud preferujete), zaregistrujte se, vytvořte zápas zadáním jeho místa a názvu, jmen hráčů a počtu framek, které se budou hrát - a můžete začít.
 
-Just open a **View** link of the match for score display on one device and click the **Mark** link on another device to start the marking of the match. As you mark the score on your device, the score is automatically updated on all the other devices displaying the score in real-time.
+Stačí otevřít **View** odkaz zápasu pro zobrazení skóre na jednom zařízení a kliknout na odkaz **Mark** na dalším zařízení pro začátek značení zápasu. Jak označujete skóre na svém zařízení, skóre se automaticky aktualizuje na všech ostatních zařízeních zobrazujících skóre v reálném čase.
 
-## Usage
+## Použití
 
-You mark the score by clicking the appropriately colored balls on the screen or pushing the buttons to mark fouls, break-offs and other actions. On computer, you can also use the keyboard shortcuts that are indicated on the left side of the buttons. Some buttons have more than one keyboard shortcut that are listed in the table bellow:
+Skóre označujete kliknutím na míče odpovídající barvy na obrazovce nebo stisknutím tlačítek pro označení faulů, úvodních ran a dalších akcí. Na počítači můžete také použít klávesové zkratky, které jsou uvedeny na levé straně tlačítek. Některá tlačítka mají více než jednu klávesovou zkratku, které jsou uvedeny v následující tabulce:
 
-Action | Keyboard Shortcut | | Action | Keyboard Shortcut
+Akce | Klávesová zkratka | | Akce | Klávesová zkratka
 :----: | :---------------: |---| :----: | :---------------:
-Balls | **`1`**, **`2`**, **`3`**, **`4`**, **`5`**, **`6`**, **`7`** || Break Off | **`O`**
-End Break | **`E`** | | Re-Rack | **`R`**
-Foul 4 | **`F4`** or **`Ctrl`+`4`** | | Foul 5 | **`F5`** or **`Ctrl`+`5`**
-Foul 6 | **`F6`** or **`Ctrl`+`6`** | | Foul 7 | **`F7`** or **`Ctrl`+`7`**
-Miss | **`M`** | | Free Ball | **`F`**
-Put Back | **`B`** | | Play Again | **`A`**
-Red Lost | **`L`** | | Home Page | **`Esc`**
-Undo | **`U`** or **`Z`** | | Redo | **`D`** or **`Y`**
-Frame Won | **`W`** | | Conceded | **`C`**
+Míče | **`1`**, **`2`**, **`3`**, **`4`**, **`5`**, **`6`**, **`7`** || Úvodní rána | **`O`**
+Konec série | **`E`** | | Nové rozestavení | **`R`**
+Faul 4 | **`F4`** nebo **`Ctrl`+`4`** | | Faul 5 | **`F5`** nebo **`Ctrl`+`5`**
+Faul 6 | **`F6`** nebo **`Ctrl`+`6`** | | Faul 7 | **`F7`** nebo **`Ctrl`+`7`**
+Minutí | **`M`** | | Volná koule | **`F`**
+Vrácení zpět | **`B`** | | Hrát znovu | **`A`**
+Ztracená červená | **`L`** | | Domovská stránka | **`Esc`**
+Zpět | **`U`** nebo **`Z`** | | Dopředu | **`D`** nebo **`Y`**
+Frame vyhrán | **`W`** | | Vzdání se | **`C`**
 
-You can always go back to the home page by hitting **`ESC`**. Your score is always safe - you can come back anytime and continue from where you left.
+Vždy se můžete vrátit na domovskou stránku stisknutím **`ESC`**. Vaše skóre je vždy v bezpečí - můžete se kdykoli vrátit a pokračovat tam, kde jste skončili.
 
-## Technology
+## Technologie
 
-SnookerScore is made as a hobby project using the JavaScript App Platform [Meteor](https://www.meteor.com) and CSS framework [Semantic UI](http://semantic-ui.com).
+SnookerScore je vytvořen jako hobby projekt s využitím JavaScriptové App Platformy [Meteor](https://www.meteor.com) a CSS frameworku [Semantic UI](http://semantic-ui.com).
 
-## Contact
+## Kontakt
 
-All your ideas and suggestions are welcome here on [GitHub](https://github.com/avitkauskas/snookerscore) or please email them to snookerscore@vitkauskas.lt
+Všechny vaše nápady a návrhy jsou vítány zde na [GitHubu](https://github.com/avitkauskas/snookerscore) nebo je prosím pošlete na email snookerscore@vitkauskas.lt
+
+
